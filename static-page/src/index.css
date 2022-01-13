@@ -15,7 +15,8 @@ header {
 	display: flex;
 	align-items: center;
 	gap: 10px;
-	padding: 10px 20px;
+	padding: 30px 25px;
+	height: 90px;
 }
 
 .nav-img {
@@ -25,10 +26,13 @@ header {
 .nav_main-heading {
 	margin-right: auto;
 	color: #61dafb;
+	font-weight: 700;
+	font-size: 22px;
 }
 
 .nav_sub-heading {
 	color: #deebf8;
+	font-weight: 600;
 }
 
 .container {
@@ -37,23 +41,30 @@ header {
 	height: 100vh;
 }
 
+main {
+	padding: 57px 27px;
+	background: url(./images/react-icon-large.png) no-repeat right 75%;
+}
 .main-heading {
-	padding: 20px;
+	margin: 0;
+	font-size: 39px;
+	letter-spacing: -0.05em;
+	font-weight: 700;
+	line-height: 47px;
 }
 
 .main-list {
-	padding-left: 60px;
-	list-style: none;
+	margin-top: 46px;
+	max-width: 400px;
 }
 
 .main-list li {
 	margin-bottom: 20px;
+	line-height: 19px;
 }
 
-.main-list li::before {
-	content: "\2022";
+.main-list li::marker {
 	color: #61dafb;
-	display: inline-block;
-	width: 20px;
-	/* margin-right: 10px; */
+
+	font-size: 1.4rem;
 }
